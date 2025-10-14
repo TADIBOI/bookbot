@@ -1,5 +1,5 @@
 from stats import count_words
-
+from stats import count_letters 
 def get_book_text(path_to_file):
     book_content = ""
     with open (path_to_file) as f:
@@ -12,6 +12,7 @@ def get_book_text(path_to_file):
 def main():
     path = "books/frankenstein.txt"
     count_words(get_book_text(path))
+    count_letters(get_book_text(path))
     #print(get_book_text(path))
 
 
