@@ -36,7 +36,7 @@ def sorted_dictinary_lists(dict):
         }
         list.append(mini_dict)
     list.sort(reverse=True, key=sort_on)
-    print(list)
+    #print(list)
     return list
 
 
